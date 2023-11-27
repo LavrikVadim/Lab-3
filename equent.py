@@ -6,9 +6,11 @@ from tkinter import messagebox
 import sympy as smp
 from textwrap import wrap
 
+
 Window = tk.Tk()
 Window.geometry('1350x700')
-# Window["bg"] = "DarkSeaGreen1"
+Window["bg"] = "DarkSeaGreen1"
+
 
 # Задание1
 def mask_objects():
